@@ -1,0 +1,41 @@
+{
+  "name": "testmaxsum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "computeMaxSum.js",
+  "scripts": {
+    "test": "jest",
+    "flow": "flow",
+    "build": "babel ./ -d dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flow": "^0.2.3",
+    "jest": "^22.4.4"
+  },
+  "babel": {
+    "ignore": [
+      "node_modules/**/*"
+    ],
+    "presets": [
+      "es2015",
+      "flow"
+    ],
+    "plugins": []
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.75.0",
+    "regenerator-runtime": "^0.11.1"
+  }
+}
